@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dabell RH accompagne entreprises et talents avec un recrutement rigoureux et humain, ainsi que des formations sur mesure pour développer vos compétences." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="preload" as="style" href="./CSS/style.css" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-dymIejXv7cYOkOk3W3UKGwEuUvjSb9VjA36TObgGJE0E7E5Wdl66iRS0LlwM651c01qmPvvrL1jAUx0f+4t5cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <noscript><link rel="stylesheet" href="./CSS/style.css"></noscript>
+
+    <title>Dabel</title>
+</head>
+<body>
+<header>
+    <nav id="navBar">
+        <a href="#sec_start" class="container_img">
+            <img src="./Media/LOGO_DEF.png" alt="logo Dabell RH">
+        </a>
+        <div class="container_href">
+            <a  href="#sec_1">
+                Qui sommes-nous ?
+            </a>
+
+            <a  href="#sec_3">
+                Nos deux pôles
+            </a>
+            <a  href="#NosValue">
+                Nos Valeurs
+            </a>
+
+            <a  href="#contact">
+                Contact
+            </a>
+        </div>
+    </nav>
+</header>
+<main>
+
+<section id="sec_start">  
+    <div class="img_start"><img src="./Media/hunters.jpg" fetchpriority="high" decoding="async" alt="image de fond dabell"></div>
+
+    <div class="present">
+        <p class="text1">
+            <span class="accr_0">Allier proximité humaine et excellence professionnelle,</span>
+            <span class="accr_1"> pour construire des collaborations durables, sincères et efficaces.
+            </span>
+        </p>
+        <p class="ss_text">Basée dans l’Essonne, Dabell RH intervient partout en France pour répondre aux besoins spécifiques de chaque client, avec réactivité et proximité.
+        </p>
+        <div class="container_btn">
+            <button type="button"><a href="#contact">Nous contacter</a></button>
+            <button type="button"><a href="#sec_3">Découvrir nos pôles</a></button>
+        </div>
+    </div>
+</section>
+
+<section id="sec_1">
+    <div class="quiSm">
+        <h3>Qui sommes-nous ?</h3>
+        <p>Dabell RH est née en juillet 2025 de l’association de deux experts passionnés des ressources humaines : Rafael et Andy. Forts de plus de 10 années d’expérience chacun dans les domaines du recrutement, du conseil RH et de la formation — aussi bien en cabinet, en chasse de tête qu’en entreprise — ils ont choisi de créer une structure à leur image, fondée sur des valeurs humaines fortes, la transparence, l’excellence opérationnelle, et l’impact durable.
+        </p>
+    </div>
+
+    <div class="quiSm2">
+        <div class="img_detailAproche">
+            <img src="./Media/tyler-franta.jpg">
+        </div>
+
+        <div class="container_text">
+            <h3>Une approche complète, rigoureuse et humaine du recrutement</h3>
+            <p>
+                Chez Dabell Recrutement, chaque mission est considérée comme unique. C’est pourquoi l’ensemble du processus repose sur une approche structurée et sur-mesure, alliant méthodologie éprouvée, outils modernes et accompagnement humain de qualité.    
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="sec_3">
+    <div class="valeur">
+        <h3>NOS DEUX PÔLES</h3>
+        <p class="text1">Dabell RH, c’est deux pôles d’activité complémentaires</p>
+    </div>
+
+    <div class="pole">
+            <article class="card recru">
+                <div class="card_logo">
+                    <img src="./Media/poignee-de-main.png">
+                </div>
+                <h3 class="card__title">Cabinet de recrutement</h3>
+                <p class="card__desc">Une approche complète, rigoureuse et humaine, adaptée à chaque mission.</p>
+                <ul class="bullets">
+                <li>Écoute & analyse</li>
+                <li>Recherche ciblée</li>
+                <li>Sélection exigeante</li>
+                <li>Matching intelligent</li>
+                <li>Accompagnement</li>
+                </ul>
+          </article>
+
+         <article class="card">
+              <div class="card_logo">
+                    <img src="./Media/chapeau-de-remise-de-diplome.png" alt="Centre de formation" loading="lazy" decoding="async">
+
+                </div>
+            <h3 class="card__title">Centre de formation</h3>
+            <p class="card__desc">Développez les compétences, révélez les talents, avec des formations ancrées dans la réalité du terrain.</p>
+            <ul class="bullets">
+              <li>Formations sur mesure</li>
+              <li>Domaines clés</li>
+              <li>Pédagogie active</li>
+              <li>Accompagnement complet</li>
+              <li>Deux axes d’expertise</li>
+            </ul>
+          </article>
+
+          <div class="detail_pole">
+            <div class="container">
+                <div class="container_head">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"/></svg>
+                    <h3>La différence Dabell</h3>
+                </div>
+                <p>
+                    Dabell Recrutement fait le choix de la transparence totale et de l’engagement sincère.
+                </p>
+                <p>
+                    L’approche repose sur une communication sobre, réaliste et claire. Pas de promesses excessives, ni de discours formatés : l’accompagnement se veut pragmatique, constant et fiable. L’équipe reste présente tout au long de la mission, avec des retours réguliers et constructifs.
+                </p>
+
+                <p>À chaque étape, les clients bénéficient de :</p>
+
+                <ul>
+                    <li><em>Retours fréquents</em>, même en période de faible avancement ou de marché complexe
+                    </li>
+                    <li>
+                        <em>Recommandations assumées</em> : chaque profil présenté l’est par conviction, jamais par défaut
+                    </li>
+                    <li><em>Une présence constante</em> : les consultants sont engagés jusqu’à la réussite de la mission
+                    </li>
+                    <li><em>Une relation fluide, honnête</em>, fondée sur une communication directe et une volonté commune d’avancer
+                    </li>
+                </ul>
+
+                <p>L’objectif : faire gagner du temps, apporter de la clarté et construire des collaborations durables, basées sur la confiance mutuelle.
+                </p>
+
+            </div>
+
+            <div class="container_forma">
+                <div class="container_head">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"/></svg>
+                    <h3>La différence Dabell Formation</h3>
+                </div>
+
+                <p>Notre catalogue de formations :</p>
+                <ul>
+                    <li>Soft skills, RH, management, insertion, etc.</li>
+                    <li>Formations en présentiel / distanciel</li>
+                </ul>
+
+                <p>Formations sur mesure :</p>
+                <ul>
+                    <li>Diagnostic des besoins</li>
+                    <li>Modules personnalisés pour entreprises</li>
+                </ul>
+
+                <p>Financements :</p>
+                <ul>
+                    <li>OPCO, CPF, Pôle emploi, entreprises</li>
+                    <li>Aide à la prise en charge</li>
+                </ul>
+
+                <p>Dabell Formation – Développez les compétences, révélez les talents</p>
+
+                <h3>Une vision de la formation ancrée dans le réel</h3>
+
+                <p>
+                    Chez Dabell RH, la formation est considérée comme un levier essentiel pour accompagner les évolutions du monde professionnel, renforcer la performance des équipes et favoriser l’épanouissement individuel. C’est dans cet esprit que Dabell Formation a été créé : un pôle entièrement dédié à la montée en compétences des salariés, demandeurs d’emploi, managers et dirigeants.
+                </p>
+
+                <p>
+                    Grâce à une double expertise RH et pédagogique, Dabell conçoit des formations pratiques, impactantes et sur-mesure, adaptées aux réalités du terrain.
+                </p>
+
+                <h4>L’approche</h4>
+                <ul>
+                    <li>Des formations ancrées dans le réel, conçues par des professionnels expérimentés</li>
+                    <li>Une pédagogie active et participative, orientée résultats</li>
+                    <li>Des parcours personnalisés, en fonction des besoins de chaque entreprise ou apprenant</li>
+                    <li>Des formats flexibles : présentiel, distanciel ou blended learning</li>
+                </ul>
+
+                 <h4>Domaines d’intervention</h4>
+                <ul>
+                    <li>Soft skills (communication, assertivité, gestion du stress…)</li>
+                    <li>Management & leadership</li>
+                    <li>Ressources humaines & recrutement</li>
+                    <li>Insertion professionnelle & employabilité</li>
+                    <li>Accompagnement au changement</li>
+                </ul>
+
+                
+                <h4>Un accompagnement de A à Z</h4>
+                <p>Dabell Formation guide dans toutes les étapes du projet :</p>
+                <ul>
+                    <li>Identification des besoins</li>
+                    <li>Élaboration d’un programme sur-mesure</li>
+                    <li>Aide au montage de dossiers de financement (OPCO, CPF, Pôle emploi, etc.)</li>
+                    <li>Évaluation des acquis et suivi post-formation</li>
+                </ul>
+
+            </div>
+            <div class="exit"></div>
+          </div>
+        </div>
+    
+</div>
+</section>
+
+<section id="NosValue">
+    <h3>NOS VALEURS</h3>
+    <div class="container_nv">
+        <article class="Nv_art">
+            <div class="container_img"><img src="./Media/handshake-regular-full.svg" alt="logo representation de la valeur"></div>
+            <p>Notre approche est profondément humaine. Derrière chaque CV, chaque entreprise, il y a des personnes, des parcours, des aspirations. Nous traitons chaque candidat et chaque client avec écoute, bienveillance et respect.
+            </p>
+        </article>
+
+        <article class="Nv_art">
+            <div class="container_img"><img src="./Media/ethics.png" alt="logo representation de la valeur"></div>
+            <p>Nous avons fait le choix d’un cabinet à notre image : éthique, clair dans sa démarche, transparent dans ses échanges. Aucun discours enjolivé, aucune promesse irréaliste. Nous disons ce que nous faisons, et faisons ce que nous disons.
+            </p>
+        </article>
+
+        <article class="Nv_art">
+            <div class="container_img"><img src="./Media/rgpd" alt="logo representation de la valeur"></div>
+            <p>Nous nous engageons fermement pour un recrutement inclusif, fondé sur les compétences, les valeurs humaines et l’égalité des chances. Nous appliquons une politique stricte de non-discrimination à chaque étape de nos processus, dans le respect de la diversité et des singularités de chacun.</p>
+        </article>
+
+        <article class="Nv_art">
+            <div class="container_img"><img src="./Media/la-creativite.png" alt="logo representation de la valeur"></div>
+            <p>Notre rigueur est une garantie. Côté recrutement comme côté formation, nos processus sont structurés, transparents et éprouvés. Nous assurons un suivi personnalisé et veillons à la qualité de l'expérience offerte à nos candidats et à nos clients.</p>
+        </article>
+
+        <article class="Nv_art">
+            <div class="container_img"><img src="./Media/coche.png" alt="logo representation de la valeur"></div>
+            <p>Nous accordons une importance capitale à la confidentialité des données personnelles. Tous nos processus sont conformes au RGPD, et chaque information collectée est traitée avec responsabilité, sécurité et transparence</p>
+        </article>
+
+        <article class="Nv_art">
+            <div class="container_img"><img src="./Media/lutte.png" alt="logo representation de la valeur"></div>
+            <p>Parce que le monde du travail change, nous avons choisi de moderniser l’approche classique du recrutement. Fini les process rigides, lents, impersonnels. Chez Dabell RH, nous privilégions l’agilité, la réactivité et l’usage de solutions innovantes pour mieux répondre aux attentes de nos partenaires.</p>
+        </article>
+    </div>
+</section>
+
+<section id="fondat">
+    <h3>LES FONDATEURS</h3>
+    <div class="container_fondat">
+        <article>
+            <div class="container_img">
+                <img src="./Media/utilisateur.png" alt="photo du fondateur">
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse illo ipsa, magni facere eos aliquid debitis saepe sequi nisi inventore quidem laboriosam suscipit. Id amet magnam officiis eligendi cupiditate?
+            </p>
+        </article>
+    </div>
+</section>
+
+ <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="contact-title" class="section__title">Nous contacter</h2>
+          <p class="section__kicker">Remplissez le formulaire et nous vous recontacterons rapidement.</p>
+        </div>
+
+        <form class="form" action="#" method="post">
+          <div class="form__grid">
+            <div class="form__field">
+              <label for="name">Nom complet</label>
+              <input id="name" name="name" type="text" required>
+            </div>
+            <div class="form__field">
+              <label for="company">Entreprise</label>
+              <input id="company" name="company" type="text">
+            </div>
+            <div class="form__field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+            <div class="form__field">
+              <label for="phone">Téléphone</label>
+              <input id="phone" name="phone" type="tel" inputmode="tel">
+            </div>
+            <div class="form__field form__field--full message">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+          </div>
+          <div class="form__actions">
+            <button class="btn__submit" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+</main>
+<footer></footer>
+<script src="./JS/animation.js"></script>
+</body>
+</html>
