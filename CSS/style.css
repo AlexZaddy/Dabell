@@ -289,6 +289,12 @@ html{
     z-index: 4;
     top: 0;
     right: 0;
+    display: none;
+}
+
+#sec_3 .pole .detail_pole .exit{
+    width: 55%;
+    height: 100%;
 }
 
 #sec_3 .pole .detail_pole .container{
@@ -370,6 +376,7 @@ html{
     width: 45%;
     font-family: raleway;
     overflow: auto;
+    display: none;
 }
 
 #sec_3 .pole .card:hover{
@@ -577,5 +584,164 @@ html{
     }
     100%{
         transform: translateZ(210px);
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    #navBar{
+        height: auto;
+    }
+
+    .container_href{
+        width: 80%;
+    }
+
+    #navBar a{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 50px;
+        text-wrap: nowrap;
+        font-size: 14px;
+    }
+
+    .present{
+        width: 100%;
+    }
+
+    .present .text1{
+        width: 80%;
+        font-size: 45px;
+        text-align: center;
+    }
+    .animated-text-appear{
+        transform: translateY(-150px);
+    }
+
+    .present p{
+        text-align: center;
+        width: 90%;
+    }
+
+    .container_btn{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ss_text{
+        display: none;
+    }
+
+    .container_btn button{
+        margin: 5px 0;
+    }
+
+    #sec_1{
+        height: auto;
+    }
+
+    #sec_1 .quiSm h3{
+        font-size: 34px;
+    }
+
+    #sec_1 .quiSm{
+        height: auto;
+        padding: 15px 0;
+    }
+
+    #sec_1 .quiSm2{
+        height: auto;
+        flex-direction: column;
+    }
+
+    #sec_1 .quiSm2 .img_detailAproche{
+        width: 100%;
+    }
+
+    #sec_1 .quiSm2 .container_text {
+        width: 100%;
+    }
+
+    #sec_1 .quiSm2 .container_text p{
+        width: 80%;
+    }
+
+    #sec_3{
+        height: auto;
+    }
+
+    #sec_3 .valeur h3{
+        height: auto;
+    }
+
+    #sec_3 .pole{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sec_3 .pole .card{
+        width: 90%;
+    }
+
+    #sec_3 .pole .detail_pole{
+        height: auto;
+        width:100%;
+    }
+
+    #sec_3 .pole .detail_pole .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    #sec_3 .pole .detail_pole .exit{
+        display: none;
+    }
+
+    #sec_3 .pole .detail_pole .container .container_head, 
+    #sec_3 .pole .detail_pole .container_forma .container_head{
+        flex-direction: column;
+    }
+
+    #sec_3 .pole .detail_pole .container p, #sec_3 .pole .detail_pole .container_forma p{
+        width: 80%;
+    }
+
+    #sec_3 .pole .card .card__desc{
+        line-height: 1.5;
+    }
+
+    #NosValue{
+        height: auto;
+    }
+
+    #fondat h3{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    #fondat .container_fondat article{
+        width: 85%;
+        padding: 15px;
+    }
+
+    #contact .container{
+        flex-direction: column;
+    }
+
+    .form__grid .form__field{
+        width: 95%;
+    }
+    .form__grid .message textarea{
+        width: 95%;
+    }
+
+    .Nv_art{
+        width: 80%;
+        margin: 10% 0;
+    }
+
+    *{
+        overflow-x: hidden;
     }
 }

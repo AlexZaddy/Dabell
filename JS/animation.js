@@ -1,5 +1,10 @@
 const spanPre = document.querySelector(".accr_0");
 const spanPre1 = document.querySelector(".accr_1");
+const cardRecru = document.querySelector(".recru");
+const divConatinPole = document.querySelector(".detail_pole");
+const divContainRecru = document.querySelector(".container");
+const cardForma = document.querySelector(".format");
+const divContainFormat = document.querySelector(".container_forma");
 
 const animeText = () => {
   setTimeout(() => {
@@ -18,4 +23,69 @@ const animeTextRestart = () => {
   }, 5000);
 };
 
+const closeModal = () => {
+  const btnClose = document.querySelector(".close");
+  const btnCloseFromat = document.querySelector(".BtnClose");
+  btnClose.addEventListener(
+    "click",
+    () => {
+      divConatinPole.style.display = "none";
+      divContainRecru.style.display = "none";
+    },
+    false
+  );
+
+  btnCloseFromat.addEventListener(
+    "click",
+    () => {
+      divConatinPole.style.display = "none";
+      divContainFormat.style.display = "none";
+    },
+    false
+  );
+};
+
+const showDetailRecru = () => {
+  cardRecru.addEventListener(
+    "click",
+    () => {
+      (divConatinPole.style.display && divConatinPole.style.display == "") ||
+      divConatinPole.style.display != "block"
+        ? (divConatinPole.style.display = "block")
+        : (divConatinPole.style.display = "none");
+
+      (divContainRecru.style.display && divContainRecru.style.display == "") ||
+      divContainRecru.style.display != "block"
+        ? (divContainRecru.style.display = "block")
+        : (divContainRecru.style.display = "none");
+      console.log(divContainRecru);
+      closeModal();
+    },
+    false
+  );
+};
+
+const showDetailFroma = () => {
+  cardForma.addEventListener(
+    "click",
+    () => {
+      (divConatinPole.style.display && divConatinPole.style.display == "") ||
+      divConatinPole.style.display != "block"
+        ? (divConatinPole.style.display = "block")
+        : (divConatinPole.style.display = "none");
+
+      (divContainFormat.style.display &&
+        divContainFormat.style.display == "") ||
+      divContainFormat.style.display != "block"
+        ? (divContainFormat.style.display = "block")
+        : (divContainFormat.style.display = "none");
+
+      return closeModal();
+    },
+    false
+  );
+};
+
 animeText();
+showDetailRecru();
+showDetailFroma();
