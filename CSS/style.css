@@ -741,7 +741,12 @@ html{
         margin: 10% 0;
     }
 
-    *{
+    #sec_3 .pole .detail_pole .container_forma{
+        width:100%
+    }
+
+    header,main,footer{
         overflow-x: hidden;
     }
+
 }
