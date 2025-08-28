@@ -63,6 +63,26 @@ html{
     align-items: center;
     margin-right: 20px;
     cursor: pointer;
+    width: 15%;
+}
+
+.menu_burger{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 117px;
+    background: #f5f5f561;
+    display: none;
+}
+
+.btn_burger{
+    width: 10%;
+    position: relative;
+    left: 80%;
+}
+
+.btn_burger img {
+    width: 100%;
 }
 
 #navBar .container_img{
@@ -303,6 +323,9 @@ html{
     width: 45%;
     font-family: raleway;
     display: none;
+    overflow: scroll;
+    z-index: 5;
+    position: fixed;
 }
 
 #sec_3 .pole .detail_pole .container .container_head, #sec_3 .pole .detail_pole .container_forma .container_head{
@@ -375,8 +398,10 @@ html{
     height: 100%;
     width: 45%;
     font-family: raleway;
-    overflow: auto;
+    overflow: scroll;
     display: none;
+    position:fixed;
+    z-index: 6;
 }
 
 #sec_3 .pole .card:hover{
@@ -593,14 +618,26 @@ html{
         height: auto;
     }
 
+
     .container_href{
-        width: 80%;
+        width: 30%;
+    }
+
+    .btn_burger{
+        width: 30%;
+    }
+
+    .menu_burger{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 100%;
     }
 
     #navBar a{
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 50px;
+        width: 100%;
         text-wrap: nowrap;
         font-size: 14px;
     }
@@ -742,7 +779,17 @@ html{
     }
 
     #sec_3 .pole .detail_pole .container_forma{
-        width:100%
+        width:100%;
+        
+    }
+
+    .form__actions{
+        display: flex;
+    }
+
+    .btn__submit{
+        width: 80%;
+        margin: 0 auto;
     }
 
     header,main,footer{

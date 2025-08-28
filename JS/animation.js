@@ -5,6 +5,8 @@ const divConatinPole = document.querySelector(".detail_pole");
 const divContainRecru = document.querySelector(".container");
 const cardForma = document.querySelector(".format");
 const divContainFormat = document.querySelector(".container_forma");
+const menuNav = document.querySelector(".menu_burger");
+const btnBurger = document.querySelector(".btn_burger");
 
 const animeText = () => {
   setTimeout(() => {
@@ -86,6 +88,22 @@ const showDetailFroma = () => {
   );
 };
 
+const showMenu = () => {
+  btnBurger.addEventListener(
+    "click",
+    () => {
+      (menuNav.style.display && menuNav.style.display == "") ||
+      menuNav.style.display != "flex"
+        ? (menuNav.style.display = "flex")
+        : (menuNav.style.display = "none");
+
+      console.log("oui");
+    },
+    false
+  );
+};
+
+showMenu();
 animeText();
 showDetailRecru();
 showDetailFroma();
