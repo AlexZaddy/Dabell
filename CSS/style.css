@@ -502,7 +502,33 @@ html{
     font-family: raleway;
     font-weight: lighter;
     font-size: 18px;
+    cursor: pointer;
+    transition: 400ms;
 }
+#fondat .container_fondat article:hover{
+    transition: 400ms;
+    transform: scale(1.1);
+    background: #F5F5F5;
+    box-shadow: rgba(0, 0, 0, 0.381) 2px 3px 9px -2px;
+    color: #003e1a;
+    border-radius: 9px;
+}
+
+#fondat .container_fondat article .text_container{
+    width: 70%;
+}
+
+#fondat .container_fondat article .text_container span{
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 2% 0;
+}
+
+#fondat .container_fondat article .text_container p{
+    margin: 5% 0;
+    padding-right: 5%;
+}
+
 #fondat{
     height: 50vh;
 }
@@ -515,8 +541,13 @@ html{
     width: 430px;
 }
 
+#fondat .container_fondat{
+    display: flex;
+}
+
+
 #fondat .container_fondat article .container_img{
-    width: 450px;
+    width: 25%;
     margin: 15px;
 }
 
@@ -603,6 +634,64 @@ html{
     margin-left: 70%;
 }
 
+#Modal_fondateur{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: raleway;
+    display: none;
+}
+
+#Modal_fondateur h3, #Modal_fondateur h4{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+#Modal_fondateur .container {
+    background: #F5F5F5;
+    height: 100vh;
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.381) 2px 3px 9px -2px;
+    display: none;
+    overflow-y: scroll;
+}
+
+#Modal_fondateur .container_1 {
+    background: #F5F5F5;
+    height: 100vh;
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.381) 2px 3px 9px -2px;
+    display: none;
+    overflow-y: scroll;
+
+}
+
+#Modal_fondateur .close_fondat, #Modal_fondateur .close_fondat_1{
+    width: 40px;
+    height: 40px;
+}
+
+#Modal_fondateur p{
+    margin: 30px 40px;
+    line-height: 1.5;
+}
+
+.signer{
+    width: 70px;
+    margin-left: 85%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.381) 2px 3px 9px -2px;
+    overflow: hidden;
+    
+}
+
+.signer img{
+    width: 100%;
+}
+
+
 @keyframes AnimeStart {
     0%{
         transform: translateY(0);
@@ -613,7 +702,7 @@ html{
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
     #navBar{
         height: auto;
     }
@@ -794,6 +883,23 @@ html{
 
     header,main,footer{
         overflow-x: hidden;
+    }
+
+    #Modal_fondateur .container,#Modal_fondateur .container_1{
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    .signer{
+        margin-left: 75%;
+    }
+
+    #fondat{
+        height: auto;
+    }
+
+    #fondat .container_fondat{
+        flex-direction: column;
     }
 
 }

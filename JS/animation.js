@@ -7,6 +7,13 @@ const cardForma = document.querySelector(".format");
 const divContainFormat = document.querySelector(".container_forma");
 const menuNav = document.querySelector(".menu_burger");
 const btnBurger = document.querySelector(".btn_burger");
+const btnCloseModalFondateur = document.querySelector(".close_fondat");
+const ModalFondat = document.getElementById("Modal_fondateur");
+const btnCloseModalFondateur1 = document.querySelector(".close_fondat_1");
+const cardAndy = document.getElementById("Andy");
+const cardRaf = document.getElementById("Rafael");
+const divRaf = document.querySelector(".raf");
+const divAndy = document.querySelector(".andy");
 
 const animeText = () => {
   setTimeout(() => {
@@ -60,7 +67,6 @@ const showDetailRecru = () => {
       divContainRecru.style.display != "block"
         ? (divContainRecru.style.display = "block")
         : (divContainRecru.style.display = "none");
-      console.log(divContainRecru);
       closeModal();
     },
     false
@@ -96,13 +102,34 @@ const showMenu = () => {
       menuNav.style.display != "flex"
         ? (menuNav.style.display = "flex")
         : (menuNav.style.display = "none");
-
-      console.log("oui");
     },
     false
   );
 };
 
+const closeModalFondateur = () => {
+  btnCloseModalFondateur.addEventListener("click", () => {
+    ModalFondat.style.display = "none";
+  });
+
+  cardAndy.addEventListener("click", () => {
+    ModalFondat.style.display = "block";
+    divAndy.style.display = "block";
+  });
+
+  btnCloseModalFondateur1.addEventListener("click", () => {
+    ModalFondat.style.display = "none";
+  });
+
+  cardRaf.addEventListener("click", () => {
+    ModalFondat.style.display = "block";
+    divRaf.style.display = "block";
+  });
+
+  return;
+};
+
+closeModalFondateur();
 showMenu();
 animeText();
 showDetailRecru();
